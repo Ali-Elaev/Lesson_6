@@ -1,0 +1,203 @@
+.container {
+   margin: 20px auto;
+   padding: 20px;
+   max-width: 1000px;
+}
+
+.title {
+   text-align: center;
+   font-family: 'IBM Plex Sans', sans-serif;
+   font-size: 28px;
+   background-color: rgb(226, 214, 214);
+   color: rgb(235, 133, 8);
+   text-transform: uppercase;
+}
+
+.name {
+   font-family: 'IBM Plex Sans', sans-serif;
+   font-size: 22px;
+}
+
+.property {
+   font-family: 'Glegoo', serif;
+   font-weight: 700;
+   font-size: 24px;
+}
+
+/* Вариант 1 */
+.text__ex {
+   border-top-width: 5px;
+   border-top-style: solid;
+   border-top-color: blueviolet;
+
+   border-right-width: 10px;
+   border-right-style: dashed;
+   border-right-color: rgb(255, 0, 106);
+
+   border-bottom-width: 12px;
+   border-bottom-style: double;
+   border-bottom-color: aquamarine;
+
+   border-left-width: 15px;
+   border-left-style: dotted;
+   border-left-color: blanchedalmond;
+
+   padding: 20px;
+}
+
+/* Вариант 2 */
+
+.text__ex {
+   border: 10px double red;
+}
+
+/* border-style */
+
+.solid {
+   border: 5px solid rgb(90, 90, 63);
+   padding: 20px;
+}
+
+.dotted {
+   border: 5px dotted rgb(230, 230, 73);
+   padding: 20px;
+}
+
+.dashed {
+   border: 5px dashed rgb(120, 165, 248);
+   padding: 20px;
+}
+
+.double {
+   border: 5px double rgb(89, 227, 245);
+   padding: 20px;
+}
+
+.groove {
+   border: 5px groove rgb(146, 146, 23);
+   padding: 20px;
+}
+
+.ridge {
+   border: 5px ridge rgb(90, 90, 63);
+   padding: 20px;
+}
+
+.inset {
+   border: 5px inset rgb(175, 60, 141);
+   padding: 20px;
+}
+
+.outset {
+   border: 5px outset rgb(241, 43, 86);
+   padding: 20px;
+}
+
+/* Сокрытие одной стороны границы */
+
+.hidden {
+   padding: 20px;
+   border: 5px solid rgb(235, 133, 8);
+}
+
+.hidden {
+   border-top: none;
+}
+
+/* Граница для ссылки */
+
+.link {
+   border-bottom: 3px dotted rgb(240, 43, 43);
+   text-decoration: none;
+   font-size: 23px;
+}
+
+/* border-radius */
+
+.radius {
+   padding: 30px;
+   background-color: rgb(241, 181, 181);
+   border-radius: 10px 14px 22px 59px;
+   font-size: 22px;
+}
+
+.image {
+   border-radius: 50%;
+   width: 200px;
+   height: 200px;
+   overflow: hidden;
+   margin: 0 auto;
+   border: 3px dotted red;
+}
+
+/* outline */
+
+.outline {
+   padding: 20px;
+   font-size: 22px;
+   outline: 5px solid brown;
+}
+
+/* box-shadow */
+
+.box-shadow {
+   padding: 20px;
+   background-color: rgb(162, 245, 162);
+   box-shadow: 3px 3px 10px 3px red;
+   font-size: 22px;
+}
+
+.box-shadow-inset {
+   padding: 20px;
+   background-color: rgb(162, 245, 162);
+   box-shadow: inset 3px 3px 10px 3px red;
+   font-size: 22px;
+}
+
+.inset-two {
+   padding: 20px;
+   background-color: rgba(136, 134, 134, 0.137);
+   box-shadow: 10px 10px 10px 2px #c57b7b, inset 5px 5px 50px 2px blue;
+   border-radius: 20px 2px;
+   font-size: 22px;
+}
+
+/* opacity */
+
+.opacity {
+   padding: 20px;
+   font-size: 22px;
+   background-color: green;
+   opacity: 0.3;
+}
+
+/* rgba */
+
+.rgba {
+   padding: 20px;
+   font-size: 22px;
+   background-color: rgba(0, 128, 0, 0.13);
+}
+
+/* visibility */
+
+.visibility {
+   padding: 22px;
+   background-color: rgba(0, 139, 139, 0.377);
+   font-size: 22px;
+   visibility: hidden;
+   /* opacity: 0; */
+   /* display: none; */
+}
+
+/* +++++++++++++++++++++++++++++++ Page 2 ++++++++++++++++++++++++++++++++++++++++++++ */
+
+
+@font-face {
+   font-family: 'Circular Std Book';
+   src: url('CircularStd-Book.woff2') format('woff2'),
+       url('CircularStd-Book.woff') format('woff');
+   font-weight: 500;
+   font-style: normal;
+   font-display: swap;
+}
